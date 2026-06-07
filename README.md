@@ -16,7 +16,7 @@ Band Gap refers to the difference of energy between the valence band and conduct
 
 2. **Models:**
    - **Random Forest Regressor** (scikit-learn, 100 trees)
-   - **Feedforward Neural Network** (PyTorch, 3 hidden layers, ReLU activations)
+   - **Feedforward Neural Network** (PyTorch, 2 hidden layers, ReLU activations)
 
 3. **Evaluation:** Data split 70/15/15 (train/validation/test). Features standardized using `StandardScaler`. Primary metric: Mean Absolute Error (MAE).
 
